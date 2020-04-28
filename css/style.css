@@ -1,0 +1,76 @@
+.mainbox{
+
+    width: 100%;
+    margin: 0px auto;
+    background-image: url("../images/topsturis.jpg");
+
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 920px;
+
+
+}
+
+.leftside{
+
+    width: 30%;
+    height: 500px;
+    float: left;
+
+
+}
+
+.main{
+
+    width: 60%;
+    height: 500px;
+
+    line-height: 1.6;
+    padding-left: 300px;
+
+}
+
+
+
+
+.menu{
+    height:  200px;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+
+
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 20px;
+    font-family: "Roboto Thin", "Roboto Light";
+    font-size: 20px;
+
+
+
+
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.menupic{
+    position: absolute;
+    left: 3px;
+    top: -10px;
+}
+
+.playstorelogo{
+    position: relative;
+    top: 100px;
+}
+
+
+

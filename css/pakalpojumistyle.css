@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainbox{
+
+
+    width: 100%;
+    margin: 0px auto;
+    background: url('../images/topmala.jpg') no-repeat;
+    height: 235px;
+
+    background-position: right;
+    background-size: 100% 100%;
+
+
+
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid div:nth-child(even){
+
+    line-height: 1.6;
+}
+.grid div:nth-child(odd){
+
+}
+
+.menu{
+    height:  200px;
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+
+
+}
+.menu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 20px;
+    font-family: "Roboto Thin", "Roboto Light";
+    font-size: 20px;
+
+
+
+
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.menupic{
+    position: absolute;
+    left: 3px;
+    top: -10px;
+}
+.bilde1{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bilde2{
+    display: block;
+    margin-left: auto;
+    margin-right: 0%;
+}
+div.a{
+    margin-top: 50px;
+}
+div.b{
+    display: block;
+    position: relative;
+    margin-top: 250px;
+    text-align: right;
+    line-height: 1.6;
+}
+.bilde3{
+    display: block;
+    top: -250px;
+    position: relative;
+}

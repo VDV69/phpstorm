@@ -1,0 +1,93 @@
+.gmainbox{
+
+    width: 100%;
+    margin: 0px auto;
+    background: url('../images/topmala.jpg') no-repeat;
+    height: 235px;
+
+    background-position: right;
+    background-size: 100% 100%;
+
+
+}
+
+.gleftside{
+
+    width: 30%;
+    height: 700px;
+    float: left;
+
+
+}
+.gleftmove{
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.gmain{
+
+    width: 40%;
+    float: left;
+    height: 700px;
+
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.gmainmove{
+    position: relative;
+    top: 50px;
+}
+
+.grightside{
+
+    width: 24%;
+    float: left;
+    height: 700px;
+    position: relative;
+
+}
+
+.grightmove{
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+
+
+.gmenu{
+    height:  200px;
+    text-align: center;
+    font-size: xx-large;
+
+
+}
+.gmenu>ul>li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    top: 20px;
+    font-family: "Roboto Thin", "Roboto Light";
+    font-size: 20px;
+
+
+}
+.gmenu>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.gmenupic{
+    position: absolute;
+    left: 3px;
+    top: -10px;
+}
+
+
+
+
+
